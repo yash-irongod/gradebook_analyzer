@@ -1,0 +1,6 @@
+# No external dependencies required
+# Uses only Python standard library modules:
+# csv, statistics, pathlib, json (optional), sys
+
+# Optional for CSV export or testing
+pandas==2.2.2
