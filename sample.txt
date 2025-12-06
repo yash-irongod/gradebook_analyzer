@@ -1,0 +1,57 @@
+Welcome to GradeBook Analyzer
+
+Menu:
+  1) Manual entry of student marks
+  2) Load marks from CSV file
+  3) Exit
+Choose an option (1/2/3): 1
+
+Enter student details. Leave name blank and press Enter to finish.
+Student name: yash
+Mark for yash: 98
+Student name: aaditya
+Mark for aaditya: 69
+Student name: sagar
+Mark for sagar: 95
+Student name: pranav
+Mark for pranav: 90
+Student name: ganesh
+Mark for ganesh: 9
+Student name: 
+
+ANALYSIS SUMMARY
+Total students: 5
+Average (mean): 72.20
+Median: 90.00
+Highest score: 98.0 (yash)
+Lowest score: 9.0 (ganesh)
+
+Grade distribution:
+  A: 3
+  B: 0
+  C: 0
+  D: 1
+  F: 1
+
+Passed students (4): yash, aaditya, sagar, pranav
+Failed students (1): ganesh
+
+Name    Marks   Grade
+-----------------------
+yash     98.0    A
+aaditya  69.0    D
+sagar    95.0    A
+pranav   90.0    A
+ganesh   9.0     F
+
+Export results to CSV? (y/N): y
+Enter output filename [grades_output.csv]: grades_output.csv
+Grades exported to grades_output.csv
+Analysis complete.
+
+
+Menu:
+  1) Manual entry of student marks
+  2) Load marks from CSV file
+  3) Exit
+Choose an option (1/2/3): 
