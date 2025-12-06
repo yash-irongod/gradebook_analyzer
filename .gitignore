@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE workspace
+.vscode/
+.idea/
+
+# Cache
+.cache/
+
+# Exported CSV outputs
+*.csv
